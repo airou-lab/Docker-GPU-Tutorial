@@ -112,11 +112,12 @@ $ sudo docker stop <container_name>
 ```
 ---
 
-Congratulations, you reached the end of this tutorial !
+**Congratulations, you reached the end of this tutorial !**
 
 
+---
 
-Some useful links:
+*Some useful links:*
 
 nvidia container toolkit [^1]
 
