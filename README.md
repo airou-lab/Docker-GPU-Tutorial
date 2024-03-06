@@ -87,7 +87,7 @@ The '/home/Project' is your container working environment.
 Every change made to one folder will affect the other.
 
 The -it will put you in a shell environment once the container is running.
-From there you can use `ls` and see your git repository's files and folder to make sure the container is mounted properly.
+From there you can use `ls` and see your git repository's files and folders to make sure the container is mounted properly.
 
 To see your containers:
 ```
