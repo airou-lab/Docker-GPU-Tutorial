@@ -1,7 +1,7 @@
 # Docker_tutorial
 Docker Tutorial for creating a GPU-enabled docker container from a git that does not have a Docker Image. 
 
-## Downloading a base Image
+## Downloading a base Image (Optinal)
 
 ```
 $ sudo docker pull nvidia/cuda:11.1.1-devel-ubuntu20.04
@@ -10,10 +10,11 @@ $ sudo docker pull nvidia/cuda:11.1.1-devel-ubuntu20.04
 Use 'sudo' every time if you need a GPU enabled container. Without sudo the final command won't work and the container may not be accessible from root.
 
 See the [nvidia gitlab](https://gitlab.com/nvidia/container-images/cuda/blob/master/doc/supported-tags.md) to get the right version for you.
+You can also directly do the next step, but downloading the base image for your project first ensures it works before creating a new image.
 
 ## Creating a Dockerfile
 
-Now that the image exists locally, we can make a Dockerfile to create a new Docker image, adding for example Python, Pip, Wget, and mini-conda.
+Now that the image exists locally, we can make a Dockerfile to create a new Docker image, adding for example Python, Pip, wget, and mini-conda.
 
 Create a Dockerfile in a folder in your documents.
 ```
