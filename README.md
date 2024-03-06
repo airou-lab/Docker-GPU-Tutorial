@@ -92,6 +92,8 @@ To see your container running:
 $ sudo docker ps -a
 ```
 
+Note that the conda environment may require you to exit and restart your container. You may waant to try this if you get an error like: "CondaError: Run 'conda init' before 'conda activate'"
+
 ### Start and stop a container
 To exit the shell environment, type `exit` or do CTRL+D.
 This will automatically stop the container.
