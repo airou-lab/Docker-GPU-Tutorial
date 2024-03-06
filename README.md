@@ -113,7 +113,11 @@ $ sudo docker stop <container_name>
 ---
 
 Congratulations, you reached the end of this tutorial !
-[^1]: My reference.
+
+
+Some useful linkes :
+nvidia container toolkit [^1]
+[^1]:https://github.com/NVIDIA/nvidia-container-toolkit
 
 
 
