@@ -1,7 +1,7 @@
 # Docker_tutorial
 Docker Tutorial for creating a GPU-enabled docker container from a git that does not have a Docker Image. 
 
-## Downloading a base Image (Optinal)
+## Downloading a base Image (Optional)
 
 ```
 $ sudo docker pull nvidia/cuda:11.1.1-devel-ubuntu20.04
