@@ -115,10 +115,28 @@ $ sudo docker stop <container_name>
 Congratulations, you reached the end of this tutorial !
 
 
-Some useful linkes :
-nvidia container toolkit [^1]
-[^1]:https://github.com/NVIDIA/nvidia-container-toolkit
 
+Some useful links:
+nvidia container toolkit [^1]
+nvidia container toolkit install [^2]
+nvidia sample workload [^3]
+Docker volumes [^4]
+Containerize an app[^5]
+Dockerfile reference[^6]
+run ubuntu as a container[^7]
+run a docker imaage[^8]
+nvidia/cuda[^9]
+[^10]
+[^1]:https://github.com/NVIDIA/nvidia-container-toolkit
+[^2]:https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
+[^3]:https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/sample-workload.html
+[^4]:https://docs.docker.com/storage/volumes/
+[^5]:https://docs.docker.com/get-started/02_our_app/
+[^6]:https://docs.docker.com/reference/dockerfile/
+[^7]:https://www.makeuseof.com/run-ubuntu-as-docker-container/
+[^8]:https://docs.docker.com/reference/cli/docker/container/run/
+[^9]:https://hub.docker.com/r/nvidia/cuda?uuid=e5799b04-7e76-4ac6-8cc7-744741cd42fd%0A
+[^10]:
 
 
 
