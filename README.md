@@ -74,7 +74,7 @@ $ cd ~/Documents
 $ git clone <YOUR_GIT_REPO>
 ```
 
-To create a container mounted on this git rerpository (that we'll call 'Project'):
+To create a container mounted on this git repository (that we'll call 'Project'):
 ```
 $ sudo docker run --name <container_name> -v /home/user/Documents/Project:/home/Project --gpus all -it <image_name>:<image_tag>
 ```
@@ -85,14 +85,15 @@ The '/home/Project' is your container working environment.
 Every change made to one folder will affect the other.
 
 The -it will put you in a shell environment once the container is running.
-From there you can use `ls` to see your git repository's folder on which the container is mounted.
+From there you can use `ls` and see your git repository's files and folder to make sure the container is mounted properly.
 
-To see your container running:
+To see your containers:
 ```
 $ sudo docker ps -a
 ```
+-a will show every (running and stopped) containers.
 
-Note that the conda environment may require you to exit and restart your container. You may waant to try this if you get an error like: "CondaError: Run 'conda init' before 'conda activate'"
+Note that the conda environment may require you to exit and restart your container. You may want to try this if you get an error like: "CondaError: Run 'conda init' before 'conda activate'"
 
 ### Start and stop a container
 To exit the shell environment, type `exit` or do CTRL+D.
