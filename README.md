@@ -51,8 +51,25 @@ WORKDIR /home/Project
 The final line will create the 'Project' directory in the Docker image and the command line of the containers will start in this folder.
 
 ## Building the image
-To use the Dockerfile to create an image, from the /Documents/
+To use the Dockerfile to create an image, from the ~/Documents/Docker folder:
 ```
+$ sudo docker build -t <image_name>:<image_tag> .
+```
+You now have an image from your Dockerfile.
+
+We can make sure by running:
+```
+$ sudo docker image ls
+```
+you should see your docker image, with its tag, ID, date, and size.
+
+### Creating a container mounted on a git repository
+If this hasn't been done before, clone your git repository 
+```
+$ cd ~/Documents
+$ git clone <YOUR_GIT_REPO>
+```
+
 
 
 
