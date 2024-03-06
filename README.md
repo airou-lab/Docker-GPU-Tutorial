@@ -117,23 +117,41 @@ Congratulations, you reached the end of this tutorial !
 
 
 Some useful links:
+
 nvidia container toolkit [^1]
+
 nvidia container toolkit install [^2]
+
 nvidia sample workload [^3]
+
 Docker volumes [^4]
+
 Containerize an app[^5]
+
 Dockerfile reference[^6]
+
 run ubuntu as a container[^7]
+
 run a docker imaage[^8]
+
 nvidia/cuda[^9]
+
 Index of /compute/cuda/opensource/image[^10]
+
 cuda supported tags[^11]
+
 bind mounts[^12]
+
 docker logs[^13]
+
 remove all unactive containers[^14]
+
 start container[^15]
+
 install conda in docker[^16]
+
 install python in docker[^17]
+
 step-by-step guide to Dockerfiles[^18]
 
 [^1]:https://github.com/NVIDIA/nvidia-container-toolkit
