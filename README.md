@@ -1,5 +1,5 @@
 # Docker_tutorial
-Docker Tutorial for creating a GPU-enabled docker container from a git that does not have a Docker Image. 
+Docker Tutorial for creating a GPU-enabled docker container from a git project that does not have a Docker Image. 
 
 ## Downloading a base Image (Optional)
 
