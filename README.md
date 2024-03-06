@@ -126,7 +126,11 @@ Dockerfile reference[^6]
 run ubuntu as a container[^7]
 run a docker imaage[^8]
 nvidia/cuda[^9]
-[^10]
+Index of /compute/cuda/opensource/image[^10]
+[^11]
+[^12]
+[^13]
+
 [^1]:https://github.com/NVIDIA/nvidia-container-toolkit
 [^2]:https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 [^3]:https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/sample-workload.html
@@ -136,8 +140,10 @@ nvidia/cuda[^9]
 [^7]:https://www.makeuseof.com/run-ubuntu-as-docker-container/
 [^8]:https://docs.docker.com/reference/cli/docker/container/run/
 [^9]:https://hub.docker.com/r/nvidia/cuda?uuid=e5799b04-7e76-4ac6-8cc7-744741cd42fd%0A
-[^10]:
-
+[^10]:https://developer.download.nvidia.com/compute/cuda/opensource/image/
+[^11]:
+[^12]:
+[^13]:
 
 
 
