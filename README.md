@@ -127,9 +127,14 @@ run ubuntu as a container[^7]
 run a docker imaage[^8]
 nvidia/cuda[^9]
 Index of /compute/cuda/opensource/image[^10]
-[^11]
-[^12]
-[^13]
+cuda supported tags[^11]
+bind mounts[^12]
+docker logs[^13]
+remove all unactive containers[^14]
+start container[^15]
+install conda in docker[^16]
+install python in docker[^17]
+step-by-step guide to Dockerfiles[^18]
 
 [^1]:https://github.com/NVIDIA/nvidia-container-toolkit
 [^2]:https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
@@ -141,9 +146,14 @@ Index of /compute/cuda/opensource/image[^10]
 [^8]:https://docs.docker.com/reference/cli/docker/container/run/
 [^9]:https://hub.docker.com/r/nvidia/cuda?uuid=e5799b04-7e76-4ac6-8cc7-744741cd42fd%0A
 [^10]:https://developer.download.nvidia.com/compute/cuda/opensource/image/
-[^11]:
-[^12]:
-[^13]:
+[^11]:https://gitlab.com/nvidia/container-images/cuda/blob/master/doc/supported-tags.md
+[^12]:https://docs.docker.com/storage/bind-mounts/
+[^13]:https://docs.docker.com/reference/cli/docker/container/logs/
+[^14]:https://docs.docker.com/reference/cli/docker/container/prune/
+[^15]:https://docs.docker.com/reference/cli/docker/container/start/
+[^16]:https://fabiorosado.dev/blog/install-conda-in-docker/
+[^17]:https://stackoverflow.com/questions/76340960/cuda-to-docker-container
+[^18]:https://medium.com/@anshita.bhasin/a-step-by-step-guide-to-create-dockerfile-9e3744d38d11
 
 
 
