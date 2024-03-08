@@ -89,6 +89,7 @@ Every change made to one folder will affect the other.
 The '--gpus all' argument allows the container to use every GPUs available.
 
 The -shm-size 5G argument is usefull to increase shared memory size, which is set at 64 MB by default and can be easily overflowed by neural network applications.
+In this example we'd have 5 GB of shared memory.
 
 The -it will put you in a shell environment once the container is running.
 From there you can use `ls` and see your git repository's files and folders to make sure the container is mounted properly.
