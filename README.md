@@ -78,13 +78,17 @@ $ git clone <YOUR_GIT_REPO>
 
 To create a container mounted on this git repository (that we'll call 'Project'):
 ```
-$ sudo docker run --name <container_name> -v /home/user/Documents/Project:/home/Project --gpus all -it <image_name>:<image_tag>
+$ sudo docker run --name <container_name> -v /home/user/Documents/Project:/home/Project --gpus all -shm-size 5G -it <image_name>:<image_tag>
 ```
 The '/home/user/Documents/Project' path corresponds to your git repository.
 
 The '/home/Project' is your container working environment.
 
 Every change made to one folder will affect the other.
+
+The '--gpus all' argument allows the container to use every GPUs available.
+
+The -shm-size 5G argument is usefull to increase shared memory size, which is set at 64 MB by default and can be easily overflowed by neural network applications.
 
 The -it will put you in a shell environment once the container is running.
 From there you can use `ls` and see your git repository's files and folders to make sure the container is mounted properly.
