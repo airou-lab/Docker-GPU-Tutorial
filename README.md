@@ -160,6 +160,8 @@ install python in docker[^17]
 
 step-by-step guide to Dockerfiles[^18]
 
+seeing shm occupation[^19]
+
 [^1]:https://github.com/NVIDIA/nvidia-container-toolkit
 [^2]:https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 [^3]:https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/sample-workload.html
@@ -178,6 +180,7 @@ step-by-step guide to Dockerfiles[^18]
 [^16]:https://fabiorosado.dev/blog/install-conda-in-docker/
 [^17]:https://stackoverflow.com/questions/76340960/cuda-to-docker-container
 [^18]:https://medium.com/@anshita.bhasin/a-step-by-step-guide-to-create-dockerfile-9e3744d38d11
+[^19]:https://github.com/pytorch/pytorch/issues/5040
 
 
 
