@@ -78,7 +78,7 @@ $ git clone <YOUR_GIT_REPO>
 
 To create a container mounted on this git repository (that we'll call 'Project'):
 ```
-$ sudo docker run --name <container_name> -v /home/user/Documents/Project:/home/Project --gpus all -shm-size 5G -it <image_name>:<image_tag>
+$ sudo docker run --name <container_name> -v /home/user/Documents/Project:/home/Project --gpus all --shm-size 5G -it <image_name>:<image_tag>
 ```
 The '/home/user/Documents/Project' path corresponds to your git repository.
 
